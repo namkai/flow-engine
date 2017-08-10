@@ -3,7 +3,7 @@
     "title": "Check if Red",
     "id": 1,
     "body": "(data) => data.color === 'red'",
-    "true_id": 5,
+    "true_id": 3,
     "false_id": 2
   },
   {
