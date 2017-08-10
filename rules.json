@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Check if Red",
+    "id": 1,
+    "body": "(data) => data.color === 'red'",
+    "true_id": 5,
+    "false_id": 2
+  },
+  {
+    "title": "Check if Length is 3",
+    "id": 3,
+    "body": "(data) => data.color.length === 3",
+    "true_id": 5,
+    "false_id": 8
+  }
+]
