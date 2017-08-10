@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha flow_engine.test.js"
+    "test": "mocha flow_engine.test.js",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",

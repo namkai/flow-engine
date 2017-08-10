@@ -9,7 +9,7 @@
   {
     "title": "Check if Length is 3",
     "id": 3,
-    "body": "(data) => data.color.length === 3",
+    "body": "(data) => data.color.length === 2",
     "true_id": 5,
     "false_id": 8
   }

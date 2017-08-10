@@ -32,6 +32,7 @@ class FlowEngine {
   runRuleFunction(id) {
     // If nextRuleId exists run the next rule, else reached end of rules to run
     let rule = this.checkRule(id);
+    console.log(`i'm the rule!`, rule)
     rule.nextRuleId ? this.runRuleFunction(rule.nextRuleId) : console.log('\x1b[35m', 'End');
   }
   
